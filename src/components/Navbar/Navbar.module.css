@@ -1,9 +1,10 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 .navContainer{
-    width: 99vw;
+    width: 100vw;
     height: auto;
     background-color: blueviolet;
     display: flex;
@@ -18,10 +19,19 @@ ul{
     list-style: none;
     display: flex;
     justify-content: flex-end;
-    gap: 1rem;
+    gap: 1.5rem;
     color: white;
 }
 li a{
     color: white;
     text-decoration: none;
+    font-size: 2rem;
+}
+.joinBtn{
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    height: 2rem;
+    width: 4rem;
+    text-decoration: none;
+    cursor: pointer;
 }

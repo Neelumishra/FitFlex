@@ -1,0 +1,29 @@
+.registerContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 70%;
+    height: auto;
+    margin: 4rem;
+    padding: 2rem;
+    background-color: blueviolet;
+}
+
+input{
+    height: 2rem;
+    width: 70%;
+}
+button{
+    height: 2rem;
+    width: 70%;
+}
+button a{
+    text-decoration: none;
+}
+
+p a{
+    text-decoration: none;
+    color: white;
+}
