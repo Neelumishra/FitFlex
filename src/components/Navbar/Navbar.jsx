@@ -18,7 +18,7 @@ const Navbar = () => {
             <li><Link to={"/blog"}>Blog</Link>
             </li>
         </ul>
-       <Link to={"/"}>
+       <Link to={"/register"}>
        <Button value="Join Us" className={style.joinBtn}/>
        </Link>
          

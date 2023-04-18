@@ -6,13 +6,15 @@
 .navContainer{
     width: 100vw;
     height: auto;
-    background-color: blueviolet;
+    /* background-color: rgb(39, 38, 38); */
+    background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBwcHBw0NBwcHBhYPBwcHBw8ICQcWFxIiFiAdHx8YHSgsGCExGxYfMkUnJTo/LjMxIx89ODM4NzQ3RjcBCgoKDQ0NDg0NFSsZFRktKysrKysrNysyKysrNystKy0tLSsvLTcrKzI3LTcrLSsrLSsrKzcrLTcuLSs3Ky0rK//AABEIAKgBLAMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAAAAQIDB//EACAQAQEBAAEEAgMAAAAAAAAAAAARAQIDEiEiMcEEQaH/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAYEQEBAQEBAAAAAAAAAAAAAAAAERJhAf/aAAwDAQACEQMRAD8A8NFAQUBBQWILAIgqhGRqECILCIsQWBSINQgRmDUILGRqARIRQWJCNARmEagEQUiLEhFhAiQjUIEZGoQWIRYQIxCNCsxmLFEIkIoLEhFiwIzBqEFjKrAIhFiwIzBqEFjI0BGYsUCJCKIsSDQEZhGgWJCKQIkFhAiDUBYyNQgRBYRFiCxSkc4RoVmJCLCBEFhAiDUBYzBqECJBYQXKCxUIzCNARmEaCrlIRQpEhFUqxmEahAjMVYRFiCwgRINEKRmDUILGViwCJCLAIkI0QWOcVYRWIgsIixINQgRmDUILGVWECJCKBEhGoCxmEaghEhFBYkIsWBlmEahAjKxYCxBYQIkGoQWMjUAjMI0CxIRRCJCNQCMwjQLGBYRWIkGoQWMkaCkZhGgpEhFEWJBqARkjRBYkIsIESCxYEZGoC5ZGoQIkFhEXKEagGWYRoCMxYpBYkIsAiEVRYzCNQgRBYQIwNAzGYRoFjMI1CFIkIsIESEVRYyRqECMxVhEWILAIhGoQIyNQgsZVQIhFWBGYRogsZhGoBEhFEWJCKsCMwahAiRGgWIRYQIxCNQisxmEagESEUiLlIRYQIkGoQIysWEFiQiwgRCNQgsZGoQIzFUKRIRYJViQaCkZhGiFWJCLCFIkFhCkQagVcsjUIlMpCLCC5QWLAjmRoVmMxYsIUiQiwhSINQhVyyNQiUiCwgsQWKUjMI0FWMwjQUiQiwCIRVFjMI1CIRILCCxBYBlBVCMjUILllYsAykIoGUhFiwXLnFiwgxEFgLEGgIzBogsZVYBlIRQIkIqwWMwjUIhGVUFiEUgRINQgsZGoBEhFgESEVSrGYRqARmEaEIkIpBYkIsWBGRqAsc4sUViJCLFgsZhGhKRmEaAiQikFiQixYEZGoQWMjUIUiCwgRBqEFjMI0IRmEaBYkIqhGYRoCMxYsILEhFhAiCxRYyNQQjKqBGIRBWIsIAsIQAiwgCkACAAEARYoAQhAFhCAEIQAigCwAAAAAQAAHTpZw3u7/ABOPrm725oKermdHtu7u8rvrnj6b3h+Plzu3dyzeOXuASdZzj0Mzby3Zx+M8X+OfUzhnL03d4/q/KgR//9k=");
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    align-items: center;
     color: white;
     padding: 1rem;
-    
+    position: sticky;
     /* border: 2px solid black; */
 }
 ul{
@@ -30,8 +32,14 @@ li a{
 .joinBtn{
     margin-left: 1.5rem;
     margin-right: 1.5rem;
+    padding: 0.5rem;
     height: 2rem;
-    width: 4rem;
+    width: 6rem;
     text-decoration: none;
     cursor: pointer;
+    background-color: white;
+    color: maroon;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
 }

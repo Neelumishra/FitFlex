@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+.topContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+    padding: 2rem;
+    width: 90%;
+        /* background-color: blueviolet; */
+
+}
+.textSection{
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+button{
+    margin: 1rem;
+    width: 5rem;
+    height: 2rem;
+    background-color: maroon;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.aboutHeading{
+    color: maroon;
+}

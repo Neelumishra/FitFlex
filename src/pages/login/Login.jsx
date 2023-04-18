@@ -1,19 +1,40 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React, { useState } from 'react'
+import { Link,useNavigate } from 'react-router-dom'
 import style from "./login.module.css"
-// const navigate = useNavigate()
-
-
 
 const Login = () => {
+  const[email, setEmail]=useState("")
+  const[password, setPassword]= useState("")
+  const [error, setError]= useState("")
+  const navigate = useNavigate()
+
+function handleLoginSubmit(event){
+  event.preventDefault();
+  let holder = JSON.parse(localStorage.getItem("Details"));
+  const isUserExists=holder.some(user=>user.email===email && user.password===password)
+ 
+
+  if(isUserExists){
+    console.log("user exists")
+    navigate("/home")
+  }else{
+    console.log("user not found")
+    setError("Invalid Credentials")
+  }
+ 
+ 
+}
   return (
     <div className={style.loginContainer}>
-        <h1>Login Page</h1>
-        <input type='email' placeholder='Enter your Email Id'/>
-        <input type='password' placeholder='Enter your password'/>
-        <p>new user <Link to={"/register"}>Register here</Link></p>
-        <button><Link to={"/home"}>Login</Link></button>
-
+       
+        <form onSubmit={handleLoginSubmit}>
+          <h1>Login to your account</h1>
+          {error && <span>{error}</span>}
+        <input type='email' placeholder='Enter your Email Id' onChange={(e)=>setEmail(e.target.value)}/>
+        <input type='password' placeholder='Enter your password' onChange={(e)=>setPassword(e.target.value)}/>
+        <button type="submit" className={style.loginBtn}>Login</button>
+        <p>New user <Link to={"/register"}>Register here</Link></p>
+        </form>
     </div>
   )
 }

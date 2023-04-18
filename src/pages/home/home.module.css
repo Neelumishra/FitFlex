@@ -1,0 +1,27 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+} */
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.homeContainer{
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/22/22/24/adult-1850925_960_720.jpg");
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+    /* height: 85vh; */
+}
+.homeText{
+    /* background-color: blueviolet; */
+    width: 45%;
+    color: white;
+    margin: 7rem;
+    margin-right: 2rem;
+    font-size: 1.5rem;
+    /* margin-top: 10rem; */
+    padding: 2rem;
+}
