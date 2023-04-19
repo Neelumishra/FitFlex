@@ -1,0 +1,8 @@
+.classContainer{
+     display: flex;
+  overflow-x: auto;
+}
+
+.classContainer::-webkit-scrollbar {
+  display: none;
+}

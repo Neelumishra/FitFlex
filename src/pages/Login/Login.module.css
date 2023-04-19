@@ -1,0 +1,37 @@
+.email {
+  height: 2rem;
+  width: 70%;
+}
+
+.password {
+  height: 2rem;
+  width: 70%;
+}
+
+.Labelemail {
+  width: 20vh;
+  color: white;
+}
+.Labelpassword {
+  width: 20vh;
+  color: white;
+}
+.error{
+  color: white;
+}
+.container {
+  position: fixed;
+  top: 25vh;
+  left: 35vw;
+  right: 35vw;
+  border-radius: 10px;
+  background-image: url("https://www.shutterstock.com/image-illustration/gym-weights-under-strong-dramatic-260nw-472696720.jpg");
+  text-align: center;
+  background-color: rgb(153, 150, 150);
+  border: 1px solid white;
+  padding: 20px;
+  background-color: rgb(153, 150, 150);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}

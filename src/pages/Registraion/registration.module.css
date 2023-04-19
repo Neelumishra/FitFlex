@@ -1,0 +1,61 @@
+.email {
+  width: 50vh;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  border: none;
+}
+.emailLabel {
+  width: 30vh;
+  color: white;
+}
+
+.mobile {
+  width: 50vh;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  border: none;
+}
+.mobilelabel {
+  width: 30vh;
+  color: white;
+}
+
+.Namelabel {
+  width: 30vh;
+  color: white;
+}
+
+.Name {
+  width: 50vh;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  border: none;
+}
+.passwordlabel {
+  width: 30vh;
+  color: white;
+}
+
+.password {
+  width: 50vh;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+.registerContainer {
+  border-radius: 10px;
+  position: fixed;
+  top: 20vh;
+  left: 30vw;
+  border: 1px solid white;
+  padding: 20px;
+  background-color: rgb(153, 150, 150);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    background-image: url("https://www.shutterstock.com/image-illustration/gym-weights-under-strong-dramatic-260nw-472696720.jpg");
+}
+.buttoncss{
+  margin-left:8vw;
+}
