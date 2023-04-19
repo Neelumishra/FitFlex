@@ -19,7 +19,9 @@ const Navbar = () => {
             </li >
             <li className={style.navOptions}><Link to={"/classes"}>Classes</Link>
             </li>
-            <li className={style.navOptions}><Link to={"/blog"}>Blog</Link>
+            <li><Link to={"/classes"}>Classes</Link>
+            </li>
+            <li><Link to={"/pricing"}>Pricing</Link>
             </li>
         </ul>
        <Link to={"/register"}>
