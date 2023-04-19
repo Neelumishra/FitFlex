@@ -1,0 +1,29 @@
+.mycard {
+    min-width: 300px;
+    max-width: 300px;
+
+    height: 400px;
+    background-color: black;
+    margin: 10px;
+    color: white;
+}
+
+.cards{
+    margin: 10px;
+    color: rgb(133, 5, 5);
+    border-radius: 15px;
+    padding: 10px;
+   
+    text-align: center;
+    background-color:white;
+   
+}
+.card-text{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.card-image{
+    border-radius: 10px;
+
+}

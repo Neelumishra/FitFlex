@@ -1,11 +1,11 @@
 import React from 'react'
-import Navbar from '../../components/Navbar/Navbar'
+
 import style from "./home.module.css"
 
 const Home = () => {
   return (
     <div className={style.mainContainer}>
-      <Navbar/>
+   
      <div className={style.homeContainer}>
      
      <div className={style.homeText}>

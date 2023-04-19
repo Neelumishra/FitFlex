@@ -9,7 +9,7 @@ import Login from "./pages/login/Login";
 import Register from "./pages/register/Register";
 function App() {
   return <div className="App">
-    {/* <Navbar/> */}
+    <Navbar/>
    <Routes>
     <Route path="/" element={<Login/>}/>
     <Route path="/home" element={<Home/>}/>
