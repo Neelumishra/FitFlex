@@ -8,6 +8,7 @@ import PricingPage from "./pages/Pricing/PricingPage";
 import Login from "./pages/login/Login";
 import Register from "./pages/register/Register";
 import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
 function App() {
   return <div className="App">
     <Navbar/>
@@ -19,6 +20,7 @@ function App() {
     <Route path ="/register" element={<Register/>}/>
     <Route path="/login" element={<Login/>}/>
    </Routes>
+   <Footer/>
   </div>;
 }
 

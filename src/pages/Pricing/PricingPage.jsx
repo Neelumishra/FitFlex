@@ -1,11 +1,11 @@
 import React from 'react'
-import Navbar from '../../components/Navbar/Navbar'
+
 import "./Pricing.css"
 
 export default function PricingPage() {
   return (
     <>
-    <Navbar/>
+    
     <section className='container'>
     <div className='card-container'>
       <div className='carddiv'>

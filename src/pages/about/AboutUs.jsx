@@ -8,7 +8,7 @@ import Footer from '../../components/Footer/Footer'
 const AboutSection = () => {
   return (
     < >
-      <Navbar />
+      
       <div className={style.aboutPageContainer}>
         <div className={style.topContainer}>
           <iframe className={style.video} src="https://www.youtube.com/embed/X_9VoqR5ojM" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
