@@ -1,0 +1,51 @@
+.facilitiesContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   width: 100%;
+}
+.facilitiesContainer h1{
+    color: maroon;
+    /* font-size: 2.5rem; */
+}
+.mainContainer{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    height: auto;
+    background-color: black;
+    color: white;
+}
+
+.square {
+    flex-basis: 50%;
+    /* background-color: white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    font-size: 1.2rem;
+  }
+.square h1{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+/* .icon{
+    height: 5rem;
+    width: 5rem;
+    size: 5rem;
+    color: maroon;
+} */
+
+@media screen and (max-width: 1024px){
+    .mainContainer{
+        flex-direction: column;
+    }
+    .facilitiesContainer{
+        width: 100%;
+    }
+}

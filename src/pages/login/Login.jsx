@@ -16,7 +16,7 @@ function handleLoginSubmit(event){
 
   if(isUserExists){
     console.log("user exists")
-    navigate("/home")
+    navigate("/")
   }else{
     console.log("user not found")
     setError("Invalid Credentials")

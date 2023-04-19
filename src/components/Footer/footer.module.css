@@ -1,0 +1,42 @@
+.footerContainer{
+    background-color: grey;
+    height: auto;
+    width: 100%;
+    display: flex;
+    overflow-x: hidden;
+    /* align-items: center; */
+}
+.company{
+    display: flex;
+    flex-direction: column;
+    margin: 4rem;
+}
+.company h1{
+    margin-bottom: 1rem;
+}
+.company ul{
+    list-style: none;
+    flex-direction: column;
+}
+.icons{
+    cursor: pointer;
+    margin: 2rem;
+    margin-left: 4rem;
+    margin-top: 8rem;
+    display: flex;
+    gap: 2rem;
+}
+
+@media screen and  (max-width: 1024px) {
+    .footerContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .company{
+        margin-top: 1rem;
+    }
+    .icons{
+        margin-top: 2rem;
+        /* flex-direction: column; */
+    }
+}

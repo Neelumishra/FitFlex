@@ -57,7 +57,7 @@ function submitUserDetails(event){
     localStorage.setItem("Details", JSON.stringify(holder));
     console.log(holder)
     console.log("form submitted")
-    navigate("/")
+    navigate("/login")
    
   }
 }
@@ -91,7 +91,7 @@ function submitUserDetails(event){
           Submit
         </button>
         <p>Already have an account? 
-        <Link to={"/"}>Login here</Link>
+        <Link to={"/login"}>Login here</Link>
       </p>
       </form>
      

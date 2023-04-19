@@ -1,0 +1,41 @@
+.moreInfoContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    width: 100%;
+    /* background-color: blueviolet; */
+}
+.moreInfoContainer h1{
+    color: maroon;
+    font-size: 2.5rem;
+}
+.moreAboutUs{
+    display: flex;
+    margin-top: 1rem;
+}
+.moreAboutUs img{
+    height: 32rem;
+    width: 35rem;
+    margin: 1rem;
+}
+.moreAboutUs p{
+    margin: 1rem;
+    font-size: 1.5rem;
+    color: black;
+}
+
+@media screen and  (max-width: 1024px) {
+    .moreAboutUs{
+        flex-direction: column;
+        width: 100%;
+    }
+    .moreAboutUs img{
+        width: 100%;
+        margin: 0px;
+    }
+    .moreInfoContainer{
+        width: 100%;
+    }
+}

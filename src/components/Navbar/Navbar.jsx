@@ -7,7 +7,7 @@ const Navbar = () => {
     
       <nav className={style.navContainer} >
        <div className={style.logo}> 
-       <Link to={"/home"}>
+       <Link to={"/"}>
        <h3>GYM</h3>
        </Link> </div>
         <ul >
