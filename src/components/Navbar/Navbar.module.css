@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .navContainer{
-    width: 100vw;
+    width: 100%;
     height: auto;
     /* background-color: rgb(39, 38, 38); */
     background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBwcHBw0NBwcHBhYPBwcHBw8ICQcWFxIiFiAdHx8YHSgsGCExGxYfMkUnJTo/LjMxIx89ODM4NzQ3RjcBCgoKDQ0NDg0NFSsZFRktKysrKysrNysyKysrNystKy0tLSsvLTcrKzI3LTcrLSsrLSsrKzcrLTcuLSs3Ky0rK//AABEIAKgBLAMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAAAAQIDB//EACAQAQEBAAEEAgMAAAAAAAAAAAARAQIDEiEiMcEEQaH/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAYEQEBAQEBAAAAAAAAAAAAAAAAERJhAf/aAAwDAQACEQMRAD8A8NFAQUBBQWILAIgqhGRqECILCIsQWBSINQgRmDUILGRqARIRQWJCNARmEagEQUiLEhFhAiQjUIEZGoQWIRYQIxCNCsxmLFEIkIoLEhFiwIzBqEFjKrAIhFiwIzBqEFjI0BGYsUCJCKIsSDQEZhGgWJCKQIkFhAiDUBYyNQgRBYRFiCxSkc4RoVmJCLCBEFhAiDUBYzBqECJBYQXKCxUIzCNARmEaCrlIRQpEhFUqxmEahAjMVYRFiCwgRINEKRmDUILGViwCJCLAIkI0QWOcVYRWIgsIixINQgRmDUILGVWECJCKBEhGoCxmEaghEhFBYkIsWBlmEahAjKxYCxBYQIkGoQWMjUAjMI0CxIRRCJCNQCMwjQLGBYRWIkGoQWMkaCkZhGgpEhFEWJBqARkjRBYkIsIESCxYEZGoC5ZGoQIkFhEXKEagGWYRoCMxYpBYkIsAiEVRYzCNQgRBYQIwNAzGYRoFjMI1CFIkIsIESEVRYyRqECMxVhEWILAIhGoQIyNQgsZVQIhFWBGYRogsZhGoBEhFEWJCKsCMwahAiRGgWIRYQIxCNQisxmEagESEUiLlIRYQIkGoQIysWEFiQiwgRCNQgsZGoQIzFUKRIRYJViQaCkZhGiFWJCLCFIkFhCkQagVcsjUIlMpCLCC5QWLAjmRoVmMxYsIUiQiwhSINQhVyyNQiUiCwgsQWKUjMI0FWMwjQUiQiwCIRVFjMI1CIRILCCxBYBlBVCMjUILllYsAykIoGUhFiwXLnFiwgxEFgLEGgIzBogsZVYBlIRQIkIqwWMwjUIhGVUFiEUgRINQgsZGoBEhFgESEVSrGYRqARmEaEIkIpBYkIsWBGRqAsc4sUViJCLFgsZhGhKRmEaAiQikFiQixYEZGoQWMjUIUiCwgRBqEFjMI0IRmEaBYkIqhGYRoCMxYsILEhFhAiCxRYyNQQjKqBGIRBWIsIAsIQAiwgCkACAAEARYoAQhAFhCAEIQAigCwAAAAAQAAHTpZw3u7/ABOPrm725oKermdHtu7u8rvrnj6b3h+Plzu3dyzeOXuASdZzj0Mzby3Zx+M8X+OfUzhnL03d4/q/KgR//9k=");
@@ -16,6 +16,19 @@
     padding: 1rem;
     position: sticky;
     /* border: 2px solid black; */
+}
+.logo{
+    margin-right: 38rem;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+}
+.logo a:hover{
+    color: rgb(9, 177, 243);
+}
+.logo a{
+    text-decoration: none;
+    color: white;
 }
 ul{
     list-style: none;
@@ -29,17 +42,24 @@ li a{
     text-decoration: none;
     font-size: 2rem;
 }
+.navOptions a:hover{
+    color: rgb(160, 32, 32);
+}
 .joinBtn{
     margin-left: 1.5rem;
     margin-right: 1.5rem;
     padding: 0.5rem;
-    height: 2rem;
+    height: 2.5rem;
     width: 6rem;
     text-decoration: none;
     cursor: pointer;
     background-color: white;
     color: maroon;
-    font-size: 1rem;
+    font-size: 1.2rem;
     border: none;
     border-radius: 5px;
+}
+.joinBtn:hover{
+    background-color: maroon;
+    color: white;
 }

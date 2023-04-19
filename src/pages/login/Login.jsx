@@ -27,7 +27,7 @@ function handleLoginSubmit(event){
   return (
     <div className={style.loginContainer}>
        
-        <form onSubmit={handleLoginSubmit}>
+        <form onSubmit={handleLoginSubmit} className={style.loginForm}>
           <h1>Login to your account</h1>
           {error && <span>{error}</span>}
         <input type='email' placeholder='Enter your Email Id' onChange={(e)=>setEmail(e.target.value)}/>

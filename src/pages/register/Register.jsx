@@ -65,7 +65,7 @@ function submitUserDetails(event){
   return (
     <div className={style.registerContainer}>
    
-      <form onSubmit={submitUserDetails}>
+      <form onSubmit={submitUserDetails} className={style.regForm}>
       <h1>Registration page</h1>
         <input type="text" 
                placeholder='enter Full Name' 

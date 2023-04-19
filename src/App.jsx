@@ -7,13 +7,20 @@ import Classes from "./pages/classes/Classes";
 import Blog from "./pages/blog/Blog";
 import Login from "./pages/login/Login";
 import Register from "./pages/register/Register";
+import MoreAboutUs from "./pages/about/MoreAboutUs";
 function App() {
   return <div className="App">
     {/* <Navbar/> */}
    <Routes>
     <Route path="/" element={<Login/>}/>
     <Route path="/home" element={<Home/>}/>
-    <Route path="/AboutUs" element={<AboutUs/>}/>
+    {/* <Switch> */}
+      <Route path="/AboutUs" element={<AboutUs/>}>
+        {/* <MoreAboutUs/> */}
+      </Route>
+    {/* </Switch> */}
+   
+    
     <Route path="/classes" element={<Classes/>}/>
     <Route path="/blog" element={<Blog/>}/>
     <Route path ="/register" element={<Register/>}/>
