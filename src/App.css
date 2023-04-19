@@ -1,4 +1,12 @@
-* {
-  margin: 0px;
-  padding: 0px;
+/* *{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+} */
+.App{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }

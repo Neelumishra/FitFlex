@@ -57,7 +57,7 @@ function submitUserDetails(event){
     localStorage.setItem("Details", JSON.stringify(holder));
     console.log(holder)
     console.log("form submitted")
-    navigate("/")
+    navigate("/login")
    
   }
 }
@@ -65,7 +65,7 @@ function submitUserDetails(event){
   return (
     <div className={style.registerContainer}>
    
-      <form onSubmit={submitUserDetails}>
+      <form onSubmit={submitUserDetails} className={style.regForm}>
       <h1>Registration page</h1>
         <input type="text" 
                placeholder='enter Full Name' 
@@ -91,7 +91,7 @@ function submitUserDetails(event){
           Submit
         </button>
         <p>Already have an account? 
-        <Link to={"/"}>Login here</Link>
+        <Link to={"/login"}>Login here</Link>
       </p>
       </form>
      
