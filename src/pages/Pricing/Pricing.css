@@ -1,0 +1,185 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  height: auto;
+  width: 100%;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-container{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(225, 214, 214, 0.436);
+  height: 100%;
+  max-width: 80rem;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.carddiv{
+  display: flex;
+  flex-direction: column;
+  background-color: gray;
+  height: 350px;
+  width: 100%;
+  max-width: 500px;
+  margin: 30px;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.carddiv:hover {
+  background-color: #fff;
+  transform: scale(1.05);
+  box-shadow: 0px 6px 20px rgba(11, 10, 10, 0.2);
+}
+
+.my-listcard {
+  display: flex;
+  flex-direction: column;
+  color: black;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.cardh1{
+  font-size: 20px;
+  line-height: 1.5;
+  color: #e25b5b;
+  font-weight: bold;
+  padding: 5px;
+  text-align: center;
+}
+
+.priceh1{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.priceh2{
+  text-align: center;
+}
+
+.price {
+  position: relative;
+  display: inline-block;
+}
+
+.dollar {
+  position: absolute;
+  top: -10px; 
+  left: -10px; 
+  font-size: 26px;
+  color: green;
+}
+
+.number {
+  font-size: 50px;
+  line-height: 1;
+  position: relative; 
+  padding-top: 5px; 
+  color: green;
+}
+
+.slash{
+  font-size: medium;
+}
+
+h1{
+  font-size: 20px;
+  line-height: 1.5;
+  color: #333;
+  font-weight: bold;
+  padding: 5px;
+  margin-left: -5px;
+}
+
+.btn {
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.btn:hover {
+  background-color: #0069d9;
+}
+
+.price-name{
+  font-size: large;
+  text-align: center;
+  margin-top: 70px;
+  color: green;
+}
+
+.textheading {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.linebar{
+  height: 2px;
+  width: 20%;
+  background-color: black;
+  margin-bottom: 20px;
+  box-shadow: 0 0 5px 2px rgba(6, 80, 28, 0.3);
+}
+
+p{
+  overflow-wrap: break-word;
+  margin-right: 150px;
+  line-height: 1.7;
+}
+
+.textlist {
+  margin-top: 5px;
+  
+}
+
+.textlist p {
+  margin-left: 20px;
+  line-height: 1.7;
+  position: relative;
+}
+
+.textlist p::before {
+  content: "\2192"; 
+  position: absolute;
+  left: -30px;
+  color: darkgreen;
+  font-size: 20px; 
+  font-weight: bold;
+  line-height: 1.5;
+  margin-left: 5px;
+  filter: blur(.5px) brightness(1) sepia(1) hue-rotate(140deg);
+}
+.textdiv{
+  margin-left: 20px;
+
+}
+   
+  
+  
+  
+
+  
+  
+  
+  
+ 
+  
