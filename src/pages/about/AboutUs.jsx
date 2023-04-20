@@ -24,6 +24,7 @@ const AboutSection = () => {
 
         <div className={style.bottomContainer}>
           <div className={style.bottomTextSection}>
+            
             <h1 className={style.aboutHeading}>Why Choose Us?</h1>
             <ul>
               <li>Consultation with experts</li>
@@ -32,8 +33,10 @@ const AboutSection = () => {
               <li>Professional and highly trained staff</li>
               <li>Supportive Community of Like-minded people</li>
             </ul>
+
           </div>
           <iframe className={style.video} src="https://www.youtube.com/embed/XP1Ne5mBn_A" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+
         </div>
       </div>
 
