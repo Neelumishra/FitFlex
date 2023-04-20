@@ -11,16 +11,18 @@
   align-items: center;
   justify-content: center;
   background-color: rgba(225, 214, 214, 0.436);
+  
 }
 
-.card-container{
+.cardcontainer{
+  margin-top: 100px;
   display: flex;
   flex-wrap: wrap;
   height: 100%;
   max-width: 80rem;
   justify-content: center;
   align-items: center;
-  margin: 0 20px;
+  margin: 70px 20px;
 }
 
 .carddiv{
@@ -29,7 +31,7 @@
   background-color: gray;
   height: 350px;
   width: 100%;
-  max-width: 500px;
+  max-width: 400px;
   margin: 30px;
   border-radius: 5px;
   transition: all 0.3s ease-in-out;
@@ -41,7 +43,7 @@
   box-shadow: 0px 6px 20px rgba(11, 10, 10, 0.2);
 }
 
-.my-listcard {
+.mylistcard {
   display: flex;
   flex-direction: column;
   color: black;
@@ -109,16 +111,17 @@ h1{
   background-color: #007bff;
   border: none;
   border-radius: 4px;
+  padding: 10px;
   cursor: pointer;
   margin-top: 20px;
-  margin-left: 30px;
+  margin: 30px;
 }
 
 .btn:hover {
   background-color: #0069d9;
 }
 
-.price-name{
+.pricename{
   font-size: large;
   text-align: center;
   margin-top: 70px;
