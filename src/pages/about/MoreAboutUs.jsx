@@ -2,7 +2,6 @@ import React, { useRef } from 'react'
 import style from "./aboutPageCss/moreAboutUs.module.css"
 
 const MoreAboutUs = () => {
-  // const moreSectionRef = useRef(null)
   return (
     <div className={style.moreInfoContainer} >
       <h1>More About Us</h1>

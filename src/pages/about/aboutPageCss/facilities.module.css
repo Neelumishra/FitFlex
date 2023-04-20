@@ -7,12 +7,14 @@
 }
 .facilitiesContainer h1{
     color: maroon;
-    /* font-size: 2.5rem; */
+    font-size: 2rem;
 }
 .mainContainer{
     margin-top: 2rem;
     margin-bottom: 2rem;
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
     width: 90%;
     height: auto;
@@ -34,12 +36,10 @@
     font-size: 2rem;
     margin-bottom: 1rem;
 }
-/* .icon{
-    height: 5rem;
-    width: 5rem;
-    size: 5rem;
-    color: maroon;
-} */
+.square p{
+    text-align: center;
+    margin: 0px;
+}
 
 @media screen and (max-width: 1024px){
     .mainContainer{
