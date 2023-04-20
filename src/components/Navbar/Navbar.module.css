@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 .navContainer{
+    left:0;
+    top: 0;
     width: 100%;
     height: auto;
     /* background-color: rgb(39, 38, 38); */
