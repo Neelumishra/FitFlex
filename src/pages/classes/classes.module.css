@@ -1,0 +1,145 @@
+.productcarousel {
+  position: relative;
+  overflow: hidden;
+  padding: 26px;
+}
+
+.productcontainer {
+  display: flex;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+}
+
+.prebtn,
+.nextbtn {
+  border-radius: 1px;
+  border: 3px solid;
+  width: 3%;
+  height: 12%;
+  position: absolute;
+  top: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:white;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.nextbtn {
+  right: 10px;
+}
+
+
+
+.Heading {
+  color: white;
+  text-align: center;
+ 
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.subHeadingimage {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 400px;
+  height: 350px;
+  border-radius: 20px;
+  border: 3px solid white;
+  padding: 5px;
+  margin: 0px;
+}
+
+.subheadingone {
+  color: rgb(133, 5, 5);
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  
+    padding: 5px;
+   margin-top: 6px;
+ 
+}
+.subheadingtwo {
+  color: rgb(133, 5, 5);
+  text-align: center;
+ padding-bottom: 5px;
+  
+  
+ 
+}
+.subheadingthree {
+  color: rgb(133, 5, 5);
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+   
+    padding-bottom: 5px;
+ 
+}
+.teammembercontainer {
+  width: 400px;
+  margin: 3vh auto;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  
+}
+
+.teammembercontainer:hover {
+  transform: translateY(-5px);
+  transition: all 0.3s ease-in-out;
+}
+
+.teammembercontainer img {
+  transition: all 0.3s ease-in-out;
+}
+
+.teammembercontainer:hover img {
+  transform: scale(1.1);
+}
+
+.teammembercontainer .subheadingone  .subheadingtwo .subheadingthree{
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 10px;
+  
+}
+
+
+
+@media (max-width: 768px) {
+  .subHeadingimage {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    border-radius: 0;
+    border: none;
+  }
+
+  .teammembercontainer {
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+    box-shadow: none;
+  }
+}
+.maincontainer {
+  background-color: #16191e;
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+
+@media (max-width: 480px) {
+  .Heading {
+    font-size: 24px;
+  }
+
+  .subheadingtext {
+    font-size: 14px;
+  }
+}

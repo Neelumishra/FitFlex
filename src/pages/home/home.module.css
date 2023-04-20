@@ -11,6 +11,7 @@
     width: 100%;
     display: flex;
     justify-content: flex-end;
+    height: 45vw;
 }
 .homeText{
     width: 45%;

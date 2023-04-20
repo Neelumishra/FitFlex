@@ -31,6 +31,7 @@
     color: white;
 }
 ul{
+    width: 70vw;
     list-style: none;
     display: flex;
     justify-content: flex-end;

@@ -18,12 +18,12 @@
     background-color:white;
    
 }
-.card-text{
+.cardtext{
     margin-top: 10px;
     margin-bottom: 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.card-image{
+.cardimage{
     border-radius: 10px;
 
 }

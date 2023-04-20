@@ -1,7 +1,8 @@
 import React from "react";
-import "./classes.css";
+import style from "./classes.module.css";
 import Cards from "../../components/Cards/Cards";
-import Subcard from "../../components/SubCard/Subcard";
+
+
 
 function Classes() {
   let data = [
@@ -89,7 +90,7 @@ function Classes() {
       image:
         "https://images.pexels.com/photos/6740296/pexels-photo-6740296.jpeg?auto=compress&cs=tinysrgb&w=600",
       name: "Narobi",
-      desination: "Training",
+      desination: "Trainer",
       year: "8 year",
     },
     {
@@ -117,6 +118,8 @@ function Classes() {
      return () => clearInterval(intervalId);
    }, [currentImage]);
 
+
+
   let boxRef = React.useRef(null);
 
   const btnpressprev = () => {
@@ -138,36 +141,39 @@ function Classes() {
   };
 
   return (
-    <div style={{ backgroundColor: "#16191e", paddingTop: "40px" }}>
-      <h1 className="Heading">Traning Classes</h1>
-      <div className="product-carousel">
-        <button className="pre-btn" onClick={btnpressprev}>
-          <p>&lt;</p>
+    <div className={style.maincontainer}>
+      <h1 className={style.Heading}>Traning Classes</h1>
+      <div className={style.productcarousel}>
+        <button className={style.prebtn} onClick={btnpressprev}>
+          ◀
         </button>
-        <button className="next-btn" onClick={btnpressnext}>
-          <p>&gt;</p>
+        <button className={style.nextbtn} onClick={btnpressnext}>
+          ▶
         </button>
 
-        <div className="product-container" ref={boxRef}>
+        <div className={style.productcontainer} ref={boxRef}>
           {data.map((e) => (
             <Cards images={e.images} text={e.text} />
           ))}
         </div>
       </div>
-      <h3 className="Heading">Meet Our Team</h3>
-      <div className="team-member-container">
-        <div>
+      <h3 className={style.Heading}>Meet Our Team</h3>
+      <div>
+        <div className={style.teammembercontainer}>
           <img
-            className="subHeadingimage"
+            className={style.subHeadingimage}
             src={ProfileData[currentImage].image}
-            width="100%"
           ></img>
 
-          <h2 className="subheadingtext">{ProfileData[currentImage].name}</h2>
-          <p className="subheadingtext">
+          <h1 className={style.subheadingone}>
+            {ProfileData[currentImage].name}
+          </h1>
+          <h5 className={style.subheadingtwo}>
             {ProfileData[currentImage].desination}
-          </p>
-          <p className="subheadingtext">{ProfileData[currentImage].year}</p>
+          </h5>
+          <h5 className={style.subheadingthree}>
+            {ProfileData[currentImage].year}
+          </h5>
         </div>
       </div>
     </div>

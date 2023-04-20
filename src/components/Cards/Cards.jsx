@@ -1,11 +1,16 @@
 import React from "react";
-import "./Cards.css";
+import CardsCss from "./Cards.module.css";
 function Cards({images,text}) {
   return (
-    <div className="container border cards">
-      
-      <img className="card-image" src={images} width="300px" height="300px" />
-      <h3 className="card-text">{text}</h3>
+    <div className={CardsCss.cards}>
+      <img
+        className={CardsCss.cardimage}
+        src={images}
+        width="300px"
+        height="300px"
+      />
+      <br />
+      <h3 className={CardsCss.card - text}>{text}</h3>
     </div>
   );
 

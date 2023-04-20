@@ -42,7 +42,7 @@ const AboutSection = () => {
       <MoreAboutUs />
       <hr />
       <Facilities />
-      <Footer />
+      
     </>
   )
 }
