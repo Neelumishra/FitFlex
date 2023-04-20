@@ -1,10 +1,5 @@
 
-/* .mainContainer{
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-} */
+
 .homeContainer{
     background-image: url("https://cdn.pixabay.com/photo/2016/11/22/22/24/adult-1850925_960_720.jpg");
     background-size: 100% 100%;

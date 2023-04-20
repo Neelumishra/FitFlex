@@ -42,7 +42,7 @@ input{
     color: black;
 }
 .loginBtn:hover{
-    background-color: rgb(236, 130, 130);
+    background-color: maroon;
 }
 p a{
     text-decoration: none;
