@@ -2,8 +2,9 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-}
+    }
 .navContainer{
+    z-index: 1;
     left:0;
     top: 0;
     width: 100%;
@@ -16,7 +17,7 @@
     align-items: center;
     color: white;
     padding: 1rem;
-    position: sticky;
+    position: fixed;
     /* border: 2px solid black; */
 }
 .logo{
