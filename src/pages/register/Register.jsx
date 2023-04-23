@@ -12,6 +12,7 @@ const Register = () => {
 
   const [errors, setErrors] = useState({})
 
+  
 
   function submitUserDetails(event) {
     event.preventDefault();

@@ -152,8 +152,11 @@ function Classes() {
         </button>
 
         <div className={style.productcontainer} ref={boxRef}>
-          {data.map((e) => (
-            <Cards images={e.images} text={e.text} />
+          {data.map((e, index) => (
+            <div key={index}>
+              <Cards images={e.images} text={e.text} />
+            </div>
+            
           ))}
         </div>
       </div>

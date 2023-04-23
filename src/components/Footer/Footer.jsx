@@ -36,12 +36,24 @@ const Footer = () => {
             </ul>
         </div>
         <div className={style.icons}>
-            <SlSocialGoogle size={45}/>
-            <SlSocialInstagram size={45}/>
-            <SlSocialFacebook size={45}/>
-            <SlSocialLinkedin size={45}/>
-            <SlSocialTwitter size={45}/>
-            <SlSocialYoutube size={45}/>
+        <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
+          <SlSocialGoogle size={45} style={{ color: '#000000' }} />
+         </a>
+         <a href="https://www.instagram.com"target="_blank" rel="noopener noreferrer">
+         <SlSocialInstagram size={45}  style={{ color: '#000000' }} />
+         </a>
+         <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+         <SlSocialFacebook size={45} style={{ color: '#000000' }} />
+         </a>
+         <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+         <SlSocialLinkedin size={45} style={{ color: '#000000' }} />
+         </a>
+         <a href="https://www.twitter.com"  target="_blank" rel="noopener noreferrer">
+         <SlSocialTwitter size={45} style={{ color: '#000000' }} />
+         </a>
+         <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
+         <SlSocialYoutube size={45} style={{ color: '#000000' }} />
+         </a>
         </div>
 
     </div>

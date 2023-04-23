@@ -10,7 +10,7 @@ function Cards({images,text}) {
         height="300px"
       />
       <br />
-      <h3 className={CardsCss.card - text}>{text}</h3>
+      <h3 className={CardsCss.card}>{text}</h3>
     </div>
   );
 
