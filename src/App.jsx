@@ -1,6 +1,5 @@
 import "./App.css";
-import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
-// import Navbar from "./components/Navbar/Navbar"
+import { Routes, Route, useLocation} from "react-router-dom"
 import Home from "./pages/home/Home";
 import AboutUs from "./pages/about/AboutUs";
 import Classes from "./pages/classes/Classes";
@@ -9,7 +8,14 @@ import Login from "./pages/login/Login";
 import Register from "./pages/register/Register";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
+
 function App() {
+  
+  const location = useLocation()
+  React.useEffect(()=>{
+    window.scrollTo({top:0})
+  },[location])
+
   return <div className="App">
     <Navbar/>
    <Routes>
