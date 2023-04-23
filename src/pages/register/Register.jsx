@@ -27,7 +27,7 @@ const Register = () => {
     }
     if (!password) {
       errors.password = 'Password is required';
-    } else if (password.length < 6|| password.indexOf('')!==-1) {
+    } else if (password.length < 6|| password.indexOf(' ')!==-1) {
       errors.password = 'Password must be at least 6 characters';
     }
     if (!confirmPassword) {

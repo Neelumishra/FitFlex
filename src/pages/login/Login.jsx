@@ -1,12 +1,16 @@
 import React, { useState } from 'react'
 import { Link,useNavigate } from 'react-router-dom'
 import style from "./login.module.css"
+import userLoginAtom from '../../Data'
+import {useSetRecoilState} from "recoil"
 
 const Login = () => {
   const[email, setEmail]=useState("")
   const[password, setPassword]= useState("")
   const [error, setError]= useState("")
   const navigate = useNavigate()
+
+  const setIsUserLoggedIn = useSetRecoilState(userLoginAtom)
 
 function handleLoginSubmit(event){
   event.preventDefault();
@@ -16,6 +20,7 @@ function handleLoginSubmit(event){
 
   if(isUserExists){
     console.log("user exists")
+    setIsUserLoggedIn(true)
     navigate("/")
   }else{
     console.log("user not found")
